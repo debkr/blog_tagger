@@ -2,13 +2,6 @@
 # Blog Tagger 1.1.0
 # Tagging engine for blog posts
 
-# Take plain text file (with/without punctuation), strip out excluded/redundant words, count and
-# return "Top n words" and their counts. Incl. option to specify/save user-identified excluded words.
-
-# Developments to add: option to deal with html-tagged text files; option to parse from URL;
-# option to identify key phrases (pairs, triples, fours).
-
-
 #############################################################################
 
 # enter filename or quit (with default)
@@ -25,7 +18,6 @@ except:
     print 'Filename not found:', fname
     print '++Goodbye++'
     quit()
-### IMPROVEMENT: ADD FILNAME ENTRY INTO FUNCTION & RECALL FUNCTION INSTEAD OF QUIT()
 
 
 #############################################################################
@@ -75,7 +67,6 @@ else :
     print 'Entry not recognised:', punc
     print '++Goodbye++'
     quit()
-### IMPROVEMENT: RETURN TO RAW_INPUT INSTEAD OF QUIT()
 
 # split all words in file into a list
 wordlist = text.split()
