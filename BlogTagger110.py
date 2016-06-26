@@ -1,6 +1,6 @@
 # Blog Tagger 1.1.0
+# 6 May 2016
 # Tagging engine for blog posts
-# AntyZebra 6 May 2016
 
 #############################################################################
 
